@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#slider {width:1201px; height:447px; overflow:hidden; margin:0px auto;}
+
+/*图片列表*/
+.nivoSlider {position:relative;background:#fff url(../images/loading.gif) no-repeat 50% 50%;}
+.nivoSlider img {position:absolute;top:0px;left:0px;display:none;}
+.nivoSlider a {border:0;display:block;}
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;}
+
+.nivo-caption {width:100%;position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8;z-index:8;font-family: Helvetica, Arial, sans-serif;}
+.nivo-caption p {padding:5px;margin:0;}
+.nivo-caption a {color:#fff;border-bottom:1px dotted #fff;display:inline !important;}
+.nivo-caption a:hover {color:#fff;}
+
+/*数字列表*/
+.nivo-controlNav {position:absolute;left:50%;bottom:5px;margin-left:-40px; z-index:999;}
+.nivo-controlNav a {width:15px; height:15px; line-height:15px;display:block;position:relative;float:left; font-size:22px;font-weight:bold;font-family:tahoma;color:#ccc;margin-right:3px;cursor:pointer;}
+.nivo-controlNav a.active {color:#ff3f05;}
+
+/*上一张，下一张*/
+.nivo-directionNav a {display:block;width:31px;height:32px;text-indent:-9999px;border:0;position:absolute;top:45%;z-index:9;cursor:pointer;}
+.nivo-directionNav a.nivo-prevNav {left:10px;background:url(../images/arrows_left.png);;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/arrows_left.png");_background:none;}
+.nivo-directionNav a.nivo-nextNav {right:10px;background:url(../images/arrows_right.png);_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/arrows_right.png");_background:none;}
+
+.nivo-slice {display:block;position:absolute;z-index:5;height:100%;}
+.nivo-box {display:block;position:absolute;z-index:5;}
+
+
+
